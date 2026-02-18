@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-paraspect-cloud text-paraspect-ink antialiased;
+}
+
+.print-page-break {
+  page-break-after: always;
+  break-after: page;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
