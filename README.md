@@ -1,6 +1,6 @@
 # Paraspect AI Storybook (Phase 1.1)
 
-This repository now includes a runnable **Next.js 15 + TypeScript + Tailwind CSS** foundation.
+This repository includes a **Next.js 15 + TypeScript + Tailwind CSS** foundation.
 
 ## Quick start
 
@@ -11,6 +11,15 @@ npm run dev
 
 Open: `http://localhost:3000/storybook`
 
+## Available scripts
+
+```bash
+npm run dev
+npm run build
+npm run lint
+npm run test:smoke
+```
+
 ## Included in this phase
 
 - Next.js 15 App Router setup
@@ -19,6 +28,21 @@ Open: `http://localhost:3000/storybook`
 - Mobile-first layout with brand navigation
 - 3-step Interview Wizard component
 - Placeholder routes for dashboard, story create/preview, legal pages, and auth route
+
+## Troubleshooting dependency install (E403)
+
+If `npm install` fails with `403 Forbidden` in a restricted environment:
+
+1. Confirm your org-approved npm registry URL.
+2. Copy `.npmrc.example` to `.npmrc` and configure registry/auth.
+3. Retry install with your network policy-compliant proxy settings.
+
+Example:
+
+```bash
+npm config set registry <your-approved-registry>
+npm install
+```
 
 ## Planned next phase
 

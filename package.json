@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test:smoke": "node scripts/smoke-check.mjs",
+    "test": "npm run test:smoke"
   },
   "dependencies": {
     "next": "15.1.6",

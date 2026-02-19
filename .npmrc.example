@@ -1,0 +1,4 @@
+# Copy this file to .npmrc and replace placeholders for your environment.
+registry=<your-approved-registry>
+# //your-approved-registry/:_authToken=<your-token>
+strict-ssl=true
