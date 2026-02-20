@@ -1,6 +1,17 @@
 # Paraspect AI Storybook
 
-This repository has been reset and all previous application code has been removed so we can restart from scratch.
+Fresh start scaffold for Phase 1.
 
-## Next Step
-Initialize a brand new project structure when you're ready.
+## Included now
+- Next.js + TypeScript + Tailwind base files
+- App Router pages (`/` and `/create`)
+- Responsive layout with brand navigation (`#003366`)
+- 3-step Interview Wizard (Hero Name, Age, Hobby, Art Style)
+- `basePath: "/storybook"` in Next config
+
+## Run locally
+```bash
+npm install
+npm run dev
+```
+Open `http://localhost:3000/storybook`.
